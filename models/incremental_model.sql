@@ -12,6 +12,7 @@ SELECT
   id,
   item_id,
   event_date,
+  'z' as new_column, --adding new column
 FROM
   sqlmesh_example.seed_model
 WHERE
